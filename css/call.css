@@ -68,6 +68,9 @@ body {
             width: 50px;
             height: 50px;
             border-radius: 100%;
+        }
+
+        #three {
             border: #4AA359 solid 5px;
         }
 
