@@ -124,15 +124,6 @@ body {
         justify-content: flex-end;
         align-items: center;
 
-        #callIcon {
-            /* margin: 10px; */
-        }
-
-        #call {
-            /* padding-top: 10px; */
-        }
-
-
         a {
             color: #fefefe;
             text-decoration: none;
