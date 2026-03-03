@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(rgba(30, 38, 44, 1)0%,
+            rgba(42, 69, 88, 1)100%);
+    color: #fefefe;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .calling {
+        font-size: 1.6rem;
+        margin-bottom: 35px;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        margin-bottom: 40px;
+    }
+
+    .button {
+        width: 150px;
+        height: 150px;
+        background-color: #dcdcdc;
+        border-radius: 100%;
+        margin-bottom: 65px;
+
+        img {
+            width: 90px;
+        }
+    }
+
+    .btns {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 50px;
+
+        .btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                background-color: #3d5672;
+                border: #fefefe solid 1px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .hangUp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 55px;
+        border-radius: 52px;
+        background-color: #b96161;
+        margin-bottom: 58px;
+    }
+}

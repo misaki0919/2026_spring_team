@@ -22,17 +22,11 @@ body {
     padding-top: 150px;
     border-bottom: none;
 
-    /* &::after {
-        content: url(../images/campFire.png);
-        object-position: inset;
-    } */
-
     .contents {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin-top: 50px; */
 
         a {
             color: #fefefe;

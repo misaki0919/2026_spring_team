@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/calling.css">
+</head>
+
+<body>
+    <main class="main">
+        <p class="calling">calling</p>
+        <h3>竹内</h3>
+        <button class="button"><img src="images/bigGirl1.png" alt="おかっぱ女の子"></button>
+        <div class="btns">
+            <div class="btn">
+                <a href="#"><img src="images/mike.png" alt="マイク"></a>
+                <p>ミュート</p>
+            </div>
+            <div class="btn">
+                <a href="#"><img src="images/speakerIcon.png" alt="スピーカー"></a>
+                <p>スピーカー</p>
+            </div>
+            <div class="btn">
+                <a href="#"><img src="images/talkIcon.png" alt="話している人"></a>
+                <p>語る</p>
+            </div>
+        </div>
+        <a href="#" class="hangUp"><img src="images/hangUp.png" alt="電話を切る"></a>
+    </main>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hsf0arx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</body>
+
+</html>
