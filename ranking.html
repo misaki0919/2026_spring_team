@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/ranking.css">
+    <script defer src="js/ranking.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="rankingTitle">RANKING</h1>
+    </header>
+    <main class="main">
+        <div id="slider">
+            <div class="rankingWrap">
+                <div class="changeFriend">
+                    <button><img src="images/leftArrow.png" alt="左矢印" id="leftArrow"></button>
+                    <h2 class="ranking">坂口</h2>
+                    <button><img src="images/rightArrow.png" alt="右矢印" id="rightArrow"></button>
+                </div>
+                <ul class="rankingLi">
+                    <img src="images/crown.png" alt="王冠" id="crown">
+                    <li class="li">
+                        <p class="rankNum">1</p>
+                        <p class="content">今の世の中について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">2</p>
+                        <p class="content">佐藤の恋愛観について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">3</p>
+                        <p class="content">WD1Aの未来について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">4</p>
+                        <p class="content">単位を落としかけた話</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">5</p>
+                        <p class="content">田中りーくんについて</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="rankingWrap">
+                <div class="changeFriend">
+                    <a href="#"><img src="images/leftArrow.png" alt="左矢印" id="leftArrow2"></a>
+                    <h2 class="ranking">竹内</h2>
+                    <a href="#"><img src="images/rightArrow.png" alt="右矢印" id="rightArrow2"></a>
+                </div>
+                <ul class="rankingLi">
+                    <img src="images/crown.png" alt="王冠" id="crown">
+                    <li class="li">
+                        <p class="rankNum">1</p>
+                        <p class="content">今の世の中について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">2</p>
+                        <p class="content">佐藤の恋愛観について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">3</p>
+                        <p class="content">WD1Aの未来について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">4</p>
+                        <p class="content">単位を落としかけた話</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">5</p>
+                        <p class="content">田中りーくんについて</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="rankingWrap">
+                <div class="changeFriend">
+                    <a href="#"><img src="images/leftArrow.png" alt="左矢印" id="leftArrow3"></a>
+                    <h2 class="ranking">假屋</h2>
+                    <a href="#"><img src="images/rightArrow.png" alt="右矢印" id="rightArrow3"></a>
+                </div>
+                <ul class="rankingLi">
+                    <img src="images/crown.png" alt="王冠" id="crown">
+                    <li class="li">
+                        <p class="rankNum">1</p>
+                        <p class="content">今の世の中について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">2</p>
+                        <p class="content">佐藤の恋愛観について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">3</p>
+                        <p class="content">WD1Aの未来について</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">4</p>
+                        <p class="content">単位を落としかけた話</p>
+                    </li>
+                    <li class="li">
+                        <p class="rankNum">5</p>
+                        <p class="content">田中りーくんについて</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content" id="home">
+            <a href="home.html"><img src="images/home.png" alt="家"></a>
+            <a href="home.html">ホーム</a>
+        </div>
+        <div class="content" id="call">
+            <a href="call.html"><img src="images/phoneIcon.png" alt="電話" id="callIcon"></a>
+            <a href="call.html" id="call">コール</a>
+        </div>
+        <div class="content" id="ranking">
+            <a href="#"><img src="images/ranking.png" alt="ランキング台"></a>
+            <a href="#">ランキング</a>
+        </div>
+        <div class="content" id="mypage">
+            <a href="#"><img src="images/mypage.png" alt="人"></a>
+            <a href="#">マイページ</a>
+        </div>
+    </footer>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hsf0arx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</body>
+
+</html>
