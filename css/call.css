@@ -124,4 +124,16 @@ body {
             font-weight: 700;
         }
     }
+
+    #home {
+        opacity: 0.5;
+    }
+
+    #ranking {
+        opacity: 0.5;
+    }
+
+    #mypage {
+        opacity: 0.5;
+    }
 }

@@ -16,16 +16,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
 
     .calling {
         font-size: 1.6rem;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
 
     h3 {
         font-size: 2.4rem;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .button {
@@ -77,6 +77,47 @@ body {
         height: 55px;
         border-radius: 52px;
         background-color: #b96161;
-        margin-bottom: 58px;
+        margin-bottom: 50px;
+    }
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+    height: 60px;
+    background-color: #7d7d7d;
+
+    .content {
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            color: #fefefe;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+
+    #home {
+        opacity: 1;
+    }
+
+    #call {
+        opacity: 0.5;
+    }
+
+    #ranking {
+        opacity: 0.5;
+    }
+
+    #mypage {
+        opacity: 0.5;
     }
 }

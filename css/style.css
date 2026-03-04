@@ -16,7 +16,10 @@ body {
 }
 
 .main {
-    margin-top: 170px;
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
         font-size: 4rem;
@@ -26,7 +29,7 @@ body {
 
     #login {
         font-size: 1.6rem;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     #address {
@@ -38,6 +41,8 @@ body {
         background-color: #707276;
         border-radius: 40px;
         margin-bottom: 27px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
 
         a {
             display: flex;
@@ -52,6 +57,24 @@ body {
                 margin-right: 8px;
                 content: url(../images/phone.png);
             }
+        }
+    }
+
+    #start {
+        width: 120px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #997463;
+        border-radius: 40px;
+        margin-bottom: 35px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        a {
+            font-size: 2rem;
+            color: #fefefe;
+            text-decoration: none;
         }
     }
 
