@@ -1,0 +1,136 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 560px;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #272525 74.52%, #314454 88.94%, #385C77 100%);
+    border: #FFF solid 2px;
+    border-radius: 190px 190px 0 0;
+    padding-top: 150px;
+    border-bottom: none;
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: #fefefe;
+            text-decoration: none;
+        }
+
+
+        .topContent {
+            #freeBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 327px;
+                height: 86px;
+                font-size: 2.4rem;
+                background-color: #4E5A73;
+                border-radius: 13px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 1.7px;
+
+                &::after {
+                    margin-top: 5px;
+                    margin-left: 25px;
+                    content: url(../images/mike.png);
+                }
+            }
+        }
+
+        .bottomContent {
+            display: flex;
+            gap: 17px;
+            margin-bottom: 8px;
+
+            .bottomBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 13px;
+                width: 155px;
+                height: 79px;
+                background-color: #707276;
+
+            }
+
+            a {
+                font-size: 1.6rem;
+            }
+
+            #randomBtn {
+                display: flex;
+                box-shadow: 0 4px 1.7px;
+                align-items: center;
+
+                &::after {
+                    margin-top: 3px;
+                    margin-left: 6px;
+                    content: url(../images/smallmike.png);
+                }
+            }
+
+            #themeBtn {
+                box-shadow: 0 4px 1.7px;
+
+                &::after {
+                    margin-top: 3px;
+                    margin-left: 12px;
+                    content: url(../images/smallmike.png);
+                }
+            }
+        }
+    }
+
+    .campFire {
+        width: 130px;
+        margin-top: 35px;
+    }
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+    height: 60px;
+    background-color: #7d7d7d;
+
+    .content {
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        opacity: 0.5;
+
+        a {
+            color: #fefefe;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+
+    #home {
+        opacity: 1;
+    }
+}
