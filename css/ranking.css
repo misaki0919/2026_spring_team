@@ -75,10 +75,6 @@ body {
         align-items: center;
         gap: 40px;
 
-        &:nth-child(0) {
-            content: url(../images/crown.png);
-        }
-
         #crown {
             position: absolute;
             left: 7px;
@@ -110,6 +106,11 @@ body {
             .content {
                 text-align: center;
                 font-size: 1.5rem;
+            }
+
+            .score {
+                margin-left: 20px;
+                font-size: 2.4rem;
             }
         }
     }
